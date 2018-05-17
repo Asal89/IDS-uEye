@@ -1,0 +1,4 @@
+#!/bin/bash
+
+c++ -std=c++11 -I /home/odroid/Downloads/boost_1_65_1 boostVideo.cpp UEyeOpenCV.cpp -o ids -L/usr/local/lib  -lboost_thread -lboost_system -lueye_api `pkg-config opencv --cflags --libs`
+

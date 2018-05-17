@@ -1,0 +1,3 @@
+#!/bin/bash
+
+printf "(1)int Iteration Number\n(2)int Show Output Image [0/1]\n(3)int Auto Exposure [0/1]\n(4)int Auto Gain [0/1]\n(5)int Master Gain [0-100]\n(6)int Red Gain [0-100]\n(7)int Green Gain [0-100]\n(8)int Blue Gain [0-100]\n(9)double Exposure Time [milisecond]\n(10)double FPS\n\nExample:\n./ids 500 0 0 0 0 32 0 50 15 10\n"
